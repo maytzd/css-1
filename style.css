@@ -1,12 +1,18 @@
 @import url('https://fonts.cdnfonts.com/css/grafite');
 /*fonte titulo */
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/*paragrafo */
 
-*{
+/*header*/
+* {
     margin:0%; /* para colocar o tamanho da margem entre os itens */
     padding: 0%; /* espaçamento de um item para o outro */
 }
 
+body{
+    background-color: rgb(184, 184, 184);
+}
 nav {
     text-align:right;
 }
@@ -17,6 +23,7 @@ nav {
 
  header{
     background-color: rgb(184, 184, 184);
+    color: white;
  }
 
  a {
@@ -24,5 +31,29 @@ nav {
     color: white    ;
  }
 
- 
+ /* justin */
+
+ #justin {
+    color: brown;
+    background-color:cornflowerblue;
+ }
+
+ p {
+    color: blue;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50px ;
+    font-style: normal;
+ }
+
+ footer{
+    background-color: rgb(184, 184, 184);
+ }
+
+ #fot{
+    color: white;
+ }
+
+
+
 

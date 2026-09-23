@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Estilos </title>
     <link rel="stylesheet" href="./style.css">
 
     <style>
@@ -11,10 +11,16 @@
             background-color: darkgrey;
             color:white;
             text-align: center;
+            background-image: url(./imagens/fundo.jpg);
+            background-size: contain;
         }
 
         h2{
-            background-color: black;
+            background-color: red;
+        }
+
+        #carla{
+            color:blueviolet
         }
 
     </style>
@@ -24,32 +30,41 @@
     <header>
         <nav>
             <h1 style="text-align: left;"> Personagens Favoritos diversos</h1>
-            <a href="#thomas" >Maze Runner</a>
-            <a href="#justin" >13 Reasons Why</a>
-            <a href="" >Elite</a>
+            <a href="#maze" >Maze Runner |</a>
+            <a href="#13" >13 Reasons Why |</a>
+            <a href="#elite" >Elite </a>
         </nav>
-    </header>
+    </header><br><br>
 
     <main>
+        <!--CSS INLINE  dentro da tag -->
         <section style="background-color: green; color:white">
-            <h2 style="background-color: black; height: 40px; text-align: center;">Thomas </h2>
-            <img src="./imagens/thomas.jpg" alt="thomas " width="500px" >
-            <p id="thomas"><i>Thomas (Dylan O’Brien)</i> é o motor humano que impulsiona a trilogia cinematográfica Maze Runner. Ele personifica o arquétipo do herói inconformado, cuja curiosidade obstinada e recusa em aceitar regras cegas quebram o marasmo da Clareira e forçam os sobreviventes a buscarem a liberdade fora do Labirinto.</p>
+            <h2 style="background-color: black; height: 40px; text-align: center;" id="maze">Thomas </h2><br>
+            <img src="./imagens/thomas.jpg" alt="thomas " width="500px" ><br><br>
+            <p id="thomas" style="color: white; font-family: Oswald, sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 50px;
+            font-style: normal; ""><i>Thomas (Dylan O Brien)</i> é o motor humano que impulsiona a trilogia cinematográfica Maze Runner. Ele personifica o arquétipo do herói inconformado, cuja curiosidade obstinada e recusa em aceitar regras cegas quebram o marasmo da Clareira e forçam os sobreviventes a buscarem a liberdade fora do Labirinto.</p><br>
         </section>
 
-        <div>
-        <section>
-            <h2 id="justin">Justin Foley</h2>
-            <img src="./imagens/justin.jpg" alt="thomas " width="500px" >
-            <p><i>Justin Foley</i>é introduzido em 13 Reasons Why como o popular atleta da Liberty High School, mas se torna o personagem com a jornada de redenção e o arco mais dramático de toda a série.</p>
+        <!--CSS EXTERNO somente css puro-->
+        <section id="13">
+            <h2 id="justin" >Justin Foley</h2><br>
+            <img src="./imagens/justin.jpg" alt="Justin Foley " width="500px" ><br><br>
+            <p><i>Justin Foley</i>é introduzido em 13 Reasons Why como o popular atleta da Liberty High School, mas se torna o personagem com a jornada de redenção e o arco mais dramático de toda a série.</p><br>
         </section>
-        </div>
 
+        <!--CSS interno  no head do html-->
         <section>
-            <h2></h2>
-            <p></p>
+            <h2 id="elite"> Carla </h2><br>
+            <img src="./imagens/ester.jpg" alt="Carla" width="400px"><br><br>
+            <p id="carla"><i>Carla Rosón Caleruega</i>, interpretada pela atriz Ester Expósito, é uma das personagens mais icônicas e complexas das primeiras três temporadas de Élite na Netflix. Conhecida pelo apelido de "La Marquesita" (A Marquesa) devido ao título nobre herdado de sua família materna, Carla personifica a frieza, a elegância e a inteligência estratégica dentro do colégio Las Encinas.</p><br>
         </section>
     </main>
+
+    <footer style="text-align: center;"><br>
+        <p id="fot">© 2026 | Playground de CSS & Experimentos Visuais.</p><br>
+    </footer>
     
 </body>
 </html>
